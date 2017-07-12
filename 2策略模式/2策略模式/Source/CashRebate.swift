@@ -8,6 +8,7 @@
 
 import UIKit
 
+//打折类
 class CashRebate: CashSuper {
     
     private var moneyRebate: Double = 1.0

@@ -22,7 +22,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleArray = ["正常收费", "打八折", "满减"]
+        //天生 缺点1：客户端必须知道有的策略类
+        titleArray = ["正常收费", "打八折", "满300减100"]
         
     }
 
