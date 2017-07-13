@@ -17,6 +17,8 @@
 		593BD8681F15F7B00025B709 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BD8671F15F7B00025B709 /* Component.swift */; };
 		593BD86A1F15F7BA0025B709 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BD8691F15F7BA0025B709 /* Person.swift */; };
 		593BD86C1F15F7FB0025B709 /* Finery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BD86B1F15F7FB0025B709 /* Finery.swift */; };
+		593BD86E1F16F6B80025B709 /* TShirts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BD86D1F16F6B80025B709 /* TShirts.swift */; };
+		593BD8701F16F6C60025B709 /* BigTrouser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BD86F1F16F6C60025B709 /* BigTrouser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		593BD8671F15F7B00025B709 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		593BD8691F15F7BA0025B709 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		593BD86B1F15F7FB0025B709 /* Finery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finery.swift; sourceTree = "<group>"; };
+		593BD86D1F16F6B80025B709 /* TShirts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirts.swift; sourceTree = "<group>"; };
+		593BD86F1F16F6C60025B709 /* BigTrouser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigTrouser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				593BD8671F15F7B00025B709 /* Component.swift */,
 				593BD8691F15F7BA0025B709 /* Person.swift */,
 				593BD86B1F15F7FB0025B709 /* Finery.swift */,
+				593BD86D1F16F6B80025B709 /* TShirts.swift */,
+				593BD86F1F16F6C60025B709 /* BigTrouser.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -276,9 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593BD8701F16F6C60025B709 /* BigTrouser.swift in Sources */,
 				593BD83B1F15F7750025B709 /* ViewController.swift in Sources */,
 				593BD8681F15F7B00025B709 /* Component.swift in Sources */,
 				593BD86A1F15F7BA0025B709 /* Person.swift in Sources */,
+				593BD86E1F16F6B80025B709 /* TShirts.swift in Sources */,
 				593BD86C1F15F7FB0025B709 /* Finery.swift in Sources */,
 				593BD8391F15F7750025B709 /* AppDelegate.swift in Sources */,
 			);
@@ -527,6 +535,7 @@
 				593BD85F1F15F7750025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593BD8601F15F7750025B709 /* Build configuration list for PBXNativeTarget "3、装饰模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +544,7 @@
 				593BD8621F15F7750025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593BD8631F15F7750025B709 /* Build configuration list for PBXNativeTarget "3、装饰模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +553,7 @@
 				593BD8651F15F7750025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

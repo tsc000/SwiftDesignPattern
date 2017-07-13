@@ -12,14 +12,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let person = Person(name: "小菜")
+        
+        let bigTrouser = BigTrouser()
+        
+        let tShirts =  TShirts()
+        
+        bigTrouser.decorate(component: person)
+        
+        tShirts.decorate(component: bigTrouser)
+        
+        tShirts.show()
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

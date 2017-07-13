@@ -8,6 +8,21 @@
 
 import UIKit
 
+//服饰基类
 class Finery: Component {
-
+    
+    private var component: Component?
+    
+    func decorate(component: Component) {
+        self.component = component
+    }
+    
+    override func show() {
+        
+        guard let component = component else {
+            return
+        }
+        
+        component.show()
+    }
 }

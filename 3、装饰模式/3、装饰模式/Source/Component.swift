@@ -8,6 +8,10 @@
 
 import UIKit
 
+//抽象基类
 class Component: NSObject {
 
+    func show() {
+        
+    }
 }
