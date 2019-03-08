@@ -23,23 +23,13 @@ class CashContext: NSObject {
     //优点3： 将算法封装在独立的Strategy类中使得你可以独立于其Context改变它，使它易于切换、易于理解、易于扩展。
     //缺点3： 策略模式将造成产生很多策略类
     func cashContext(type: CacultorType) {
-    
         switch type {
         case .Normal:
-            
             cs = CashNormal()
-            
-            break
         case .Rebate:
-            
             cs = CashRebate(moneyRebate: 0.8)
-            
-            break
         case .Return:
-            
             cs = CashReturn(moneyCondition: 300, moneyReturn: 100)
-            
-            break
         }
     }
     

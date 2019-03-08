@@ -14,9 +14,7 @@ class CashRebate: CashSuper {
     private var moneyRebate: Double = 1.0
     
     init(moneyRebate: Double) {
-        
         self.moneyRebate = moneyRebate
-        
         super.init()
     }
 
