@@ -14,7 +14,7 @@ enum CacultorType: Int {
     case Return
 }
 
-//上下文
+//客户端对象（具体使用的对象）
 class CashContext: NSObject {
 
     private var cs: CashSuper!
@@ -38,5 +38,4 @@ class CashContext: NSObject {
     func getResult(money: Double) -> Double {
         return cs.acceptCash(money: money)
     }
-
 }
