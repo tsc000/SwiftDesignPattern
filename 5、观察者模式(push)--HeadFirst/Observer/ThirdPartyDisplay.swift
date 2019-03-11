@@ -11,7 +11,6 @@ import Cocoa
 class ThirdPartyDisplay: Observer, DisplaymentProtocol {
 
     var subject: SubjectProtocol?
-    
     private var temperature: Float = 0.0
     private var humidity: Float = 0.0
 
@@ -28,7 +27,6 @@ class ThirdPartyDisplay: Observer, DisplaymentProtocol {
     }
     
     //MARK:- ObserverProtocol
-
     override func update(observer: Observer, arg: Any?) {
         guard let dict = arg as? [String: Any] else { print("解析错误");  return }
         if let temperature = dict["temperature"] as? Float {
@@ -44,5 +42,4 @@ class ThirdPartyDisplay: Observer, DisplaymentProtocol {
     func display() {
         print("Current conditions: ThirdPartyDisplay--temperature:\(temperature)--humidity:\(humidity)")
     }
-
 }
