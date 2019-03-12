@@ -13,7 +13,6 @@ class TShirts: Finery {
 
     override func show() {
         print("大T恤")
-        
         super.show()
     }
 }

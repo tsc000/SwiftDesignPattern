@@ -10,10 +10,8 @@ import UIKit
 
 //大T恤
 class TShirts: Finery {
-
     override func show() {
         print("大T恤")
-        
         super.show()
     }
 }

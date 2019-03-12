@@ -10,12 +10,10 @@ import UIKit
 
 //人类（被装饰对象）
 class Person: Component {
-
     private var name: String;
     
     init(name: String) {
         self.name = name
-        
         super.init()
     }
     

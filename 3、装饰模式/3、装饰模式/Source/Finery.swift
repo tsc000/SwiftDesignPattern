@@ -18,11 +18,7 @@ class Finery: Component {
     }
     
     override func show() {
-        
-        guard let component = component else {
-            return
-        }
-        
+        guard let component = component else { return }
         component.show()
     }
 }

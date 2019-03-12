@@ -12,7 +12,6 @@ import UIKit
 class BigTrouser: Finery {
     override func show() {
         print("垮裤")
-        
         super.show()
     }
 }
