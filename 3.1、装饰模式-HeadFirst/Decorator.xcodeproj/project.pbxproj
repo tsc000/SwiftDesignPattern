@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46061D5922378C8E005E2CCC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D5822378C8E005E2CCC /* main.swift */; };
+		46061D6122378E83005E2CCC /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D6022378E83005E2CCC /* Beverage.swift */; };
+		46061D632237924D005E2CCC /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D622237924D005E2CCC /* Espresso.swift */; };
+		46061D65223792DE005E2CCC /* CondimentDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D64223792DE005E2CCC /* CondimentDecorator.swift */; };
+		46061D692237938F005E2CCC /* HouseBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D682237938F005E2CCC /* HouseBlend.swift */; };
+		46061D6B22379403005E2CCC /* Mocha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D6A22379403005E2CCC /* Mocha.swift */; };
+		46061D6D22379556005E2CCC /* Soy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D6C22379556005E2CCC /* Soy.swift */; };
+		46061D6F2237961E005E2CCC /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D6E2237961E005E2CCC /* Milk.swift */; };
+		46061D7122379696005E2CCC /* Whip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D7022379696005E2CCC /* Whip.swift */; };
+		46061D732237971C005E2CCC /* Decaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D722237971C005E2CCC /* Decaf.swift */; };
+		46061D752237976E005E2CCC /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061D742237976E005E2CCC /* DarkRoast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46061D5322378C8E005E2CCC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46061D5522378C8E005E2CCC /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
+		46061D5822378C8E005E2CCC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46061D6022378E83005E2CCC /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		46061D622237924D005E2CCC /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
+		46061D64223792DE005E2CCC /* CondimentDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentDecorator.swift; sourceTree = "<group>"; };
+		46061D682237938F005E2CCC /* HouseBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBlend.swift; sourceTree = "<group>"; };
+		46061D6A22379403005E2CCC /* Mocha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocha.swift; sourceTree = "<group>"; };
+		46061D6C22379556005E2CCC /* Soy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soy.swift; sourceTree = "<group>"; };
+		46061D6E2237961E005E2CCC /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		46061D7022379696005E2CCC /* Whip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whip.swift; sourceTree = "<group>"; };
+		46061D722237971C005E2CCC /* Decaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decaf.swift; sourceTree = "<group>"; };
+		46061D742237976E005E2CCC /* DarkRoast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46061D5222378C8E005E2CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46061D4C22378C8E005E2CCC = {
+			isa = PBXGroup;
+			children = (
+				46061D5722378C8E005E2CCC /* Decorator */,
+				46061D5622378C8E005E2CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46061D5622378C8E005E2CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46061D5522378C8E005E2CCC /* Decorator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46061D5722378C8E005E2CCC /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				46061D5F22378C97005E2CCC /* Source */,
+				46061D5822378C8E005E2CCC /* main.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		46061D5F22378C97005E2CCC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46061D6722379341005E2CCC /* Condiment */,
+				46061D6622379336005E2CCC /* Drink */,
+				46061D6022378E83005E2CCC /* Beverage.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46061D6622379336005E2CCC /* Drink */ = {
+			isa = PBXGroup;
+			children = (
+				46061D682237938F005E2CCC /* HouseBlend.swift */,
+				46061D622237924D005E2CCC /* Espresso.swift */,
+				46061D722237971C005E2CCC /* Decaf.swift */,
+				46061D742237976E005E2CCC /* DarkRoast.swift */,
+			);
+			path = Drink;
+			sourceTree = "<group>";
+		};
+		46061D6722379341005E2CCC /* Condiment */ = {
+			isa = PBXGroup;
+			children = (
+				46061D64223792DE005E2CCC /* CondimentDecorator.swift */,
+				46061D6A22379403005E2CCC /* Mocha.swift */,
+				46061D6C22379556005E2CCC /* Soy.swift */,
+				46061D6E2237961E005E2CCC /* Milk.swift */,
+				46061D7022379696005E2CCC /* Whip.swift */,
+			);
+			path = Condiment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46061D5422378C8E005E2CCC /* Decorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46061D5C22378C8E005E2CCC /* Build configuration list for PBXNativeTarget "Decorator" */;
+			buildPhases = (
+				46061D5122378C8E005E2CCC /* Sources */,
+				46061D5222378C8E005E2CCC /* Frameworks */,
+				46061D5322378C8E005E2CCC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decorator;
+			productName = Decorator;
+			productReference = 46061D5522378C8E005E2CCC /* Decorator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46061D4D22378C8E005E2CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zilly.MAC009;
+				TargetAttributes = {
+					46061D5422378C8E005E2CCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 46061D5022378C8E005E2CCC /* Build configuration list for PBXProject "Decorator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46061D4C22378C8E005E2CCC;
+			productRefGroup = 46061D5622378C8E005E2CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46061D5422378C8E005E2CCC /* Decorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46061D5122378C8E005E2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46061D6B22379403005E2CCC /* Mocha.swift in Sources */,
+				46061D692237938F005E2CCC /* HouseBlend.swift in Sources */,
+				46061D6F2237961E005E2CCC /* Milk.swift in Sources */,
+				46061D6122378E83005E2CCC /* Beverage.swift in Sources */,
+				46061D5922378C8E005E2CCC /* main.swift in Sources */,
+				46061D732237971C005E2CCC /* Decaf.swift in Sources */,
+				46061D632237924D005E2CCC /* Espresso.swift in Sources */,
+				46061D7122379696005E2CCC /* Whip.swift in Sources */,
+				46061D6D22379556005E2CCC /* Soy.swift in Sources */,
+				46061D752237976E005E2CCC /* DarkRoast.swift in Sources */,
+				46061D65223792DE005E2CCC /* CondimentDecorator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46061D5A22378C8E005E2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46061D5B22378C8E005E2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46061D5D22378C8E005E2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		46061D5E22378C8E005E2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46061D5022378C8E005E2CCC /* Build configuration list for PBXProject "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46061D5A22378C8E005E2CCC /* Debug */,
+				46061D5B22378C8E005E2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46061D5C22378C8E005E2CCC /* Build configuration list for PBXNativeTarget "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46061D5D22378C8E005E2CCC /* Debug */,
+				46061D5E22378C8E005E2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46061D4D22378C8E005E2CCC /* Project object */;
+}
