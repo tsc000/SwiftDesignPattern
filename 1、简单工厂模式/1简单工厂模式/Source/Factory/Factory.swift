@@ -14,7 +14,6 @@ class Factory: NSObject {
     class func createOperator(operatorParameter: String) -> AnyObject{
         
         let operators = ["+", "-", "*", "/"];
-        
         let type: CaculateType = CaculateType(rawValue: operators.index(of: operatorParameter) ?? 0) ?? CaculateType.Add
 
         switch type {

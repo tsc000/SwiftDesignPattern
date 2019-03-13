@@ -1,5 +1,5 @@
 //
-//  CaculateMultiply.swift
+//  CaculateDevide.swift
 //  Factory
 //
 //  Created by tsc on 2017/7/10.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class CaculateMultiply: NSObject, CaculateDelegate {
+class CaculateDivide: NSObject, CaculateDelegate {
     var numberA: Float = 0.0
-    
     var numberB: Float = 0.0
     
     func caculate() -> Float {
-        return numberA * numberB
+        return numberA / numberB
     }
 }

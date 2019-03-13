@@ -16,13 +16,8 @@ enum CaculateType: Int {
 
 //简单加、减、乘、除代理
 protocol CaculateDelegate {
-    var numberA: Float {
-        get set
-    }
-    
-    var numberB: Float {
-        get set
-    }
+    var numberA: Float { get set }
+    var numberB: Float { get set }
     
     func caculate() -> Float
 }

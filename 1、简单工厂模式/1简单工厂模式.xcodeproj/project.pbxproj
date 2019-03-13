@@ -86,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46061DB42238A93F005E2CCC /* ConcreteClass */ = {
+			isa = PBXGroup;
+			children = (
+				593BD7DB1F1468C60025B709 /* CaculateAdd.swift */,
+				593BD7DD1F1468C60025B709 /* CaculateDivide.swift */,
+				593BD7DE1F1468C60025B709 /* CaculateMinus.swift */,
+				593BD7DF1F1468C60025B709 /* CaculateMultiply.swift */,
+			);
+			path = ConcreteClass;
+			sourceTree = "<group>";
+		};
+		46061DB52238A966005E2CCC /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				593BD7DC1F1468C60025B709 /* CaculateDelegate.swift */,
+				593BD7E01F1468C60025B709 /* Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		593BD7A01F1468A10025B709 = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +161,8 @@
 		593BD7DA1F1468C60025B709 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				593BD7DB1F1468C60025B709 /* CaculateAdd.swift */,
-				593BD7DC1F1468C60025B709 /* CaculateDelegate.swift */,
-				593BD7DD1F1468C60025B709 /* CaculateDivide.swift */,
-				593BD7DE1F1468C60025B709 /* CaculateMinus.swift */,
-				593BD7DF1F1468C60025B709 /* CaculateMultiply.swift */,
-				593BD7E01F1468C60025B709 /* Factory.swift */,
+				46061DB52238A966005E2CCC /* Factory */,
+				46061DB42238A93F005E2CCC /* ConcreteClass */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -539,6 +555,7 @@
 				593BD7D31F1468A10025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593BD7D41F1468A10025B709 /* Build configuration list for PBXNativeTarget "1简单工厂模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +564,7 @@
 				593BD7D61F1468A10025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593BD7D71F1468A10025B709 /* Build configuration list for PBXNativeTarget "1简单工厂模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +573,7 @@
 				593BD7D91F1468A10025B709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

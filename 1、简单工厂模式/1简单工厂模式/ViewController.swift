@@ -25,13 +25,10 @@ class ViewController: UIViewController {
     @IBAction func caculatorButtonDidClick(_ sender: UIButton) {
 
         var caculator: CaculateDelegate = Factory.createOperator(operatorParameter: caculatorTF.text ?? "") as! CaculateDelegate
-        
         caculator.numberA = Float(numberATF.text!) ?? 0
-        
         caculator.numberB = Float(numberBTF.text!) ?? 0
         
         let result = caculator.caculate()
-        
         resultLabel.text = String(result)
         
     }
