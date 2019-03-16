@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46061DE922391FE4005E2CCC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061DE822391FE4005E2CCC /* main.swift */; };
+		46061DFC22392035005E2CCC /* PizzaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061DF322392035005E2CCC /* PizzaProtocol.swift */; };
+		46061DFD22392035005E2CCC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061DF422392035005E2CCC /* Pizza.swift */; };
+		46061E0022392035005E2CCC /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061DF922392035005E2CCC /* PizzaStore.swift */; };
+		46061E0222392089005E2CCC /* PizzaStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E0122392089005E2CCC /* PizzaStoreProtocol.swift */; };
+		46061E04223921ED005E2CCC /* NYStylePizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E03223921ED005E2CCC /* NYStylePizzaStore.swift */; };
+		46061E06223922D6005E2CCC /* ChichagoStylePizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E05223922D6005E2CCC /* ChichagoStylePizzaStore.swift */; };
+		46061E082239232A005E2CCC /* NYStyleCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E072239232A005E2CCC /* NYStyleCheesePizza.swift */; };
+		46061E0A2239243B005E2CCC /* ChicagoStyleCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E092239243B005E2CCC /* ChicagoStyleCheesePizza.swift */; };
+		46061E0C2239262C005E2CCC /* NYStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E0B2239262C005E2CCC /* NYStyleVeggiePizza.swift */; };
+		46061E0E2239265F005E2CCC /* NYStyleClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E0D2239265F005E2CCC /* NYStyleClamPizza.swift */; };
+		46061E10223926A8005E2CCC /* NYStylePepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E0F223926A8005E2CCC /* NYStylePepperoniPizza.swift */; };
+		46061E12223926DE005E2CCC /* ChicagoStyleVeggiePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E11223926DE005E2CCC /* ChicagoStyleVeggiePizza.swift */; };
+		46061E14223926EE005E2CCC /* ChicagoStyleClamPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E13223926EE005E2CCC /* ChicagoStyleClamPizza.swift */; };
+		46061E162239270B005E2CCC /* ChicagoStylePepperoniPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46061E152239270B005E2CCC /* ChicagoStylePepperoniPizza.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46061DE322391FE4005E2CCC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46061DE522391FE4005E2CCC /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
+		46061DE822391FE4005E2CCC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46061DF322392035005E2CCC /* PizzaProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaProtocol.swift; sourceTree = "<group>"; };
+		46061DF422392035005E2CCC /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		46061DF922392035005E2CCC /* PizzaStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
+		46061E0122392089005E2CCC /* PizzaStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStoreProtocol.swift; sourceTree = "<group>"; };
+		46061E03223921ED005E2CCC /* NYStylePizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStylePizzaStore.swift; sourceTree = "<group>"; };
+		46061E05223922D6005E2CCC /* ChichagoStylePizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChichagoStylePizzaStore.swift; sourceTree = "<group>"; };
+		46061E072239232A005E2CCC /* NYStyleCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleCheesePizza.swift; sourceTree = "<group>"; };
+		46061E092239243B005E2CCC /* ChicagoStyleCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleCheesePizza.swift; sourceTree = "<group>"; };
+		46061E0B2239262C005E2CCC /* NYStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleVeggiePizza.swift; sourceTree = "<group>"; };
+		46061E0D2239265F005E2CCC /* NYStyleClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStyleClamPizza.swift; sourceTree = "<group>"; };
+		46061E0F223926A8005E2CCC /* NYStylePepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYStylePepperoniPizza.swift; sourceTree = "<group>"; };
+		46061E11223926DE005E2CCC /* ChicagoStyleVeggiePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleVeggiePizza.swift; sourceTree = "<group>"; };
+		46061E13223926EE005E2CCC /* ChicagoStyleClamPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStyleClamPizza.swift; sourceTree = "<group>"; };
+		46061E152239270B005E2CCC /* ChicagoStylePepperoniPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoStylePepperoniPizza.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46061DE222391FE4005E2CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46061DDC22391FE4005E2CCC = {
+			isa = PBXGroup;
+			children = (
+				46061DE722391FE4005E2CCC /* Factory */,
+				46061DE622391FE4005E2CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46061DE622391FE4005E2CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46061DE522391FE4005E2CCC /* Factory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46061DE722391FE4005E2CCC /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				46061DEF22392035005E2CCC /* Source */,
+				46061DE822391FE4005E2CCC /* main.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		46061DEF22392035005E2CCC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46061DF022392035005E2CCC /* Concrete */,
+				46061DF822392035005E2CCC /* Store */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46061DF022392035005E2CCC /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				46061DF322392035005E2CCC /* PizzaProtocol.swift */,
+				46061DF422392035005E2CCC /* Pizza.swift */,
+				46061E072239232A005E2CCC /* NYStyleCheesePizza.swift */,
+				46061E0B2239262C005E2CCC /* NYStyleVeggiePizza.swift */,
+				46061E0D2239265F005E2CCC /* NYStyleClamPizza.swift */,
+				46061E0F223926A8005E2CCC /* NYStylePepperoniPizza.swift */,
+				46061E092239243B005E2CCC /* ChicagoStyleCheesePizza.swift */,
+				46061E11223926DE005E2CCC /* ChicagoStyleVeggiePizza.swift */,
+				46061E13223926EE005E2CCC /* ChicagoStyleClamPizza.swift */,
+				46061E152239270B005E2CCC /* ChicagoStylePepperoniPizza.swift */,
+			);
+			path = Concrete;
+			sourceTree = "<group>";
+		};
+		46061DF822392035005E2CCC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				46061E0122392089005E2CCC /* PizzaStoreProtocol.swift */,
+				46061DF922392035005E2CCC /* PizzaStore.swift */,
+				46061E03223921ED005E2CCC /* NYStylePizzaStore.swift */,
+				46061E05223922D6005E2CCC /* ChichagoStylePizzaStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46061DE422391FE4005E2CCC /* Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46061DEC22391FE4005E2CCC /* Build configuration list for PBXNativeTarget "Factory" */;
+			buildPhases = (
+				46061DE122391FE4005E2CCC /* Sources */,
+				46061DE222391FE4005E2CCC /* Frameworks */,
+				46061DE322391FE4005E2CCC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Factory;
+			productName = Factory;
+			productReference = 46061DE522391FE4005E2CCC /* Factory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46061DDD22391FE4005E2CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zilly.MAC009;
+				TargetAttributes = {
+					46061DE422391FE4005E2CCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 46061DE022391FE4005E2CCC /* Build configuration list for PBXProject "Factory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46061DDC22391FE4005E2CCC;
+			productRefGroup = 46061DE622391FE4005E2CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46061DE422391FE4005E2CCC /* Factory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46061DE122391FE4005E2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46061E12223926DE005E2CCC /* ChicagoStyleVeggiePizza.swift in Sources */,
+				46061DE922391FE4005E2CCC /* main.swift in Sources */,
+				46061E0A2239243B005E2CCC /* ChicagoStyleCheesePizza.swift in Sources */,
+				46061E162239270B005E2CCC /* ChicagoStylePepperoniPizza.swift in Sources */,
+				46061E10223926A8005E2CCC /* NYStylePepperoniPizza.swift in Sources */,
+				46061E082239232A005E2CCC /* NYStyleCheesePizza.swift in Sources */,
+				46061DFC22392035005E2CCC /* PizzaProtocol.swift in Sources */,
+				46061E14223926EE005E2CCC /* ChicagoStyleClamPizza.swift in Sources */,
+				46061E0E2239265F005E2CCC /* NYStyleClamPizza.swift in Sources */,
+				46061DFD22392035005E2CCC /* Pizza.swift in Sources */,
+				46061E0222392089005E2CCC /* PizzaStoreProtocol.swift in Sources */,
+				46061E0C2239262C005E2CCC /* NYStyleVeggiePizza.swift in Sources */,
+				46061E06223922D6005E2CCC /* ChichagoStylePizzaStore.swift in Sources */,
+				46061E0022392035005E2CCC /* PizzaStore.swift in Sources */,
+				46061E04223921ED005E2CCC /* NYStylePizzaStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46061DEA22391FE4005E2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46061DEB22391FE4005E2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46061DED22391FE4005E2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		46061DEE22391FE4005E2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46061DE022391FE4005E2CCC /* Build configuration list for PBXProject "Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46061DEA22391FE4005E2CCC /* Debug */,
+				46061DEB22391FE4005E2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46061DEC22391FE4005E2CCC /* Build configuration list for PBXNativeTarget "Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46061DED22391FE4005E2CCC /* Debug */,
+				46061DEE22391FE4005E2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46061DDD22391FE4005E2CCC /* Project object */;
+}
