@@ -10,7 +10,6 @@ import UIKit
 
 //服饰基类
 class Finery: Person {
-    
     private var person: Person?
     
     init() {
@@ -22,11 +21,7 @@ class Finery: Person {
     }
     
     override func show() {
-        
-        guard let person = person else {
-            return
-        }
-        
+        guard let person = person else { return }
         person.show()
     }
 }

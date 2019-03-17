@@ -10,12 +10,10 @@ import UIKit
 
 //人类（抽象基类）
 class Person: NSObject {
-
     private var name: String;
     
     init(name: String) {
         self.name = name
-        
         super.init()
     }
     
