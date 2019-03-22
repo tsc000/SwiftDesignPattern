@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4609419A223F9D77006E9843 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46094199223F9D77006E9843 /* main.swift */; };
+		460941A2223FA028006E9843 /* CommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941A1223FA028006E9843 /* CommandProtocol.swift */; };
+		460941A6223FA15A006E9843 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941A5223FA15A006E9843 /* Light.swift */; };
+		460941A8223FA1B9006E9843 /* LightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941A7223FA1B9006E9843 /* LightOnCommand.swift */; };
+		460941AA223FA20E006E9843 /* LightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941A9223FA20E006E9843 /* LightOffCommand.swift */; };
+		460941AE223FA631006E9843 /* GarageDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941AD223FA631006E9843 /* GarageDoor.swift */; };
+		460941B0223FA75A006E9843 /* GarageDoorLightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941AF223FA75A006E9843 /* GarageDoorLightOnCommand.swift */; };
+		460941B2223FA7E6006E9843 /* GarageDoorLightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941B1223FA7E6006E9843 /* GarageDoorLightOffCommand.swift */; };
+		460941B4223FA839006E9843 /* GarageDoorUpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941B3223FA839006E9843 /* GarageDoorUpCommand.swift */; };
+		460941B6223FA898006E9843 /* GarageDoorDownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941B5223FA898006E9843 /* GarageDoorDownCommand.swift */; };
+		460941B8223FA8D5006E9843 /* GarageDoorStopCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941B7223FA8D5006E9843 /* GarageDoorStopCommand.swift */; };
+		460941BA224097F9006E9843 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941B9224097F9006E9843 /* RemoteControl.swift */; };
+		460941BC22409889006E9843 /* NoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941BB22409889006E9843 /* NoCommand.swift */; };
+		460941BE22409B6F006E9843 /* Stereo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941BD22409B6F006E9843 /* Stereo.swift */; };
+		460941C022409D37006E9843 /* StereoOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941BF22409D37006E9843 /* StereoOnCommand.swift */; };
+		460941C222409DB7006E9843 /* StereoOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941C122409DB7006E9843 /* StereoOffCommand.swift */; };
+		460941C42240A44F006E9843 /* CeilingFan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941C32240A44F006E9843 /* CeilingFan.swift */; };
+		460941C62240A531006E9843 /* CeilingFanOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941C52240A531006E9843 /* CeilingFanOnCommand.swift */; };
+		460941C82240A582006E9843 /* CeilingFanOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460941C72240A582006E9843 /* CeilingFanOffCommand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46094194223F9D77006E9843 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46094196223F9D77006E9843 /* 命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46094199223F9D77006E9843 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		460941A1223FA028006E9843 /* CommandProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProtocol.swift; sourceTree = "<group>"; };
+		460941A5223FA15A006E9843 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		460941A7223FA1B9006E9843 /* LightOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOnCommand.swift; sourceTree = "<group>"; };
+		460941A9223FA20E006E9843 /* LightOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOffCommand.swift; sourceTree = "<group>"; };
+		460941AD223FA631006E9843 /* GarageDoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoor.swift; sourceTree = "<group>"; };
+		460941AF223FA75A006E9843 /* GarageDoorLightOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorLightOnCommand.swift; sourceTree = "<group>"; };
+		460941B1223FA7E6006E9843 /* GarageDoorLightOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorLightOffCommand.swift; sourceTree = "<group>"; };
+		460941B3223FA839006E9843 /* GarageDoorUpCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorUpCommand.swift; sourceTree = "<group>"; };
+		460941B5223FA898006E9843 /* GarageDoorDownCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorDownCommand.swift; sourceTree = "<group>"; };
+		460941B7223FA8D5006E9843 /* GarageDoorStopCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorStopCommand.swift; sourceTree = "<group>"; };
+		460941B9224097F9006E9843 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		460941BB22409889006E9843 /* NoCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCommand.swift; sourceTree = "<group>"; };
+		460941BD22409B6F006E9843 /* Stereo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stereo.swift; sourceTree = "<group>"; };
+		460941BF22409D37006E9843 /* StereoOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoOnCommand.swift; sourceTree = "<group>"; };
+		460941C122409DB7006E9843 /* StereoOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoOffCommand.swift; sourceTree = "<group>"; };
+		460941C32240A44F006E9843 /* CeilingFan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeilingFan.swift; sourceTree = "<group>"; };
+		460941C52240A531006E9843 /* CeilingFanOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeilingFanOnCommand.swift; sourceTree = "<group>"; };
+		460941C72240A582006E9843 /* CeilingFanOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeilingFanOffCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46094193223F9D77006E9843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4609418D223F9D77006E9843 = {
+			isa = PBXGroup;
+			children = (
+				46094198223F9D77006E9843 /* 命令模式 */,
+				46094197223F9D77006E9843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46094197223F9D77006E9843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46094196223F9D77006E9843 /* 命令模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46094198223F9D77006E9843 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				460941A0223F9D8E006E9843 /* Source */,
+				46094199223F9D77006E9843 /* main.swift */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		460941A0223F9D8E006E9843 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				460941A4223FA149006E9843 /* Command */,
+				460941A3223FA13B006E9843 /* Object */,
+				460941B9224097F9006E9843 /* RemoteControl.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		460941A3223FA13B006E9843 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				460941A5223FA15A006E9843 /* Light.swift */,
+				460941AD223FA631006E9843 /* GarageDoor.swift */,
+				460941BD22409B6F006E9843 /* Stereo.swift */,
+				460941C32240A44F006E9843 /* CeilingFan.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		460941A4223FA149006E9843 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				460941A1223FA028006E9843 /* CommandProtocol.swift */,
+				460941A7223FA1B9006E9843 /* LightOnCommand.swift */,
+				460941A9223FA20E006E9843 /* LightOffCommand.swift */,
+				460941AF223FA75A006E9843 /* GarageDoorLightOnCommand.swift */,
+				460941B1223FA7E6006E9843 /* GarageDoorLightOffCommand.swift */,
+				460941B3223FA839006E9843 /* GarageDoorUpCommand.swift */,
+				460941B5223FA898006E9843 /* GarageDoorDownCommand.swift */,
+				460941B7223FA8D5006E9843 /* GarageDoorStopCommand.swift */,
+				460941BB22409889006E9843 /* NoCommand.swift */,
+				460941BF22409D37006E9843 /* StereoOnCommand.swift */,
+				460941C122409DB7006E9843 /* StereoOffCommand.swift */,
+				460941C52240A531006E9843 /* CeilingFanOnCommand.swift */,
+				460941C72240A582006E9843 /* CeilingFanOffCommand.swift */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46094195223F9D77006E9843 /* 命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4609419D223F9D77006E9843 /* Build configuration list for PBXNativeTarget "命令模式" */;
+			buildPhases = (
+				46094192223F9D77006E9843 /* Sources */,
+				46094193223F9D77006E9843 /* Frameworks */,
+				46094194223F9D77006E9843 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "命令模式";
+			productName = "命令模式";
+			productReference = 46094196223F9D77006E9843 /* 命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4609418E223F9D77006E9843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zilly.MAC009;
+				TargetAttributes = {
+					46094195223F9D77006E9843 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 46094191223F9D77006E9843 /* Build configuration list for PBXProject "命令模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4609418D223F9D77006E9843;
+			productRefGroup = 46094197223F9D77006E9843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46094195223F9D77006E9843 /* 命令模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46094192223F9D77006E9843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460941A6223FA15A006E9843 /* Light.swift in Sources */,
+				460941BE22409B6F006E9843 /* Stereo.swift in Sources */,
+				460941B2223FA7E6006E9843 /* GarageDoorLightOffCommand.swift in Sources */,
+				460941B8223FA8D5006E9843 /* GarageDoorStopCommand.swift in Sources */,
+				460941AE223FA631006E9843 /* GarageDoor.swift in Sources */,
+				460941B4223FA839006E9843 /* GarageDoorUpCommand.swift in Sources */,
+				460941B0223FA75A006E9843 /* GarageDoorLightOnCommand.swift in Sources */,
+				4609419A223F9D77006E9843 /* main.swift in Sources */,
+				460941C42240A44F006E9843 /* CeilingFan.swift in Sources */,
+				460941C022409D37006E9843 /* StereoOnCommand.swift in Sources */,
+				460941C62240A531006E9843 /* CeilingFanOnCommand.swift in Sources */,
+				460941A2223FA028006E9843 /* CommandProtocol.swift in Sources */,
+				460941BA224097F9006E9843 /* RemoteControl.swift in Sources */,
+				460941BC22409889006E9843 /* NoCommand.swift in Sources */,
+				460941B6223FA898006E9843 /* GarageDoorDownCommand.swift in Sources */,
+				460941C82240A582006E9843 /* CeilingFanOffCommand.swift in Sources */,
+				460941C222409DB7006E9843 /* StereoOffCommand.swift in Sources */,
+				460941A8223FA1B9006E9843 /* LightOnCommand.swift in Sources */,
+				460941AA223FA20E006E9843 /* LightOffCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4609419B223F9D77006E9843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4609419C223F9D77006E9843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4609419E223F9D77006E9843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4609419F223F9D77006E9843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8573ZW29;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46094191223F9D77006E9843 /* Build configuration list for PBXProject "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4609419B223F9D77006E9843 /* Debug */,
+				4609419C223F9D77006E9843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4609419D223F9D77006E9843 /* Build configuration list for PBXNativeTarget "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4609419E223F9D77006E9843 /* Debug */,
+				4609419F223F9D77006E9843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4609418E223F9D77006E9843 /* Project object */;
+}
