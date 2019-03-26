@@ -14,6 +14,7 @@ protocol CaffeineBeverage: class {
     func pourInCup()
     func addCondiments()
     func prepareRecipe()
+    func hook() -> Bool
 }
 
 extension CaffeineBeverage {
@@ -22,7 +23,9 @@ extension CaffeineBeverage {
         boilWater()
         brew()
         pourInCup()
-        addCondiments()
+        if hook() {
+            addCondiments()
+        }
     }
 
     func boilWater() {
@@ -31,5 +34,9 @@ extension CaffeineBeverage {
 
     func pourInCup() {
         print("CaffeineBeverage--pourInCup")
+    }
+
+    func hook() -> Bool {
+        return true
     }
 }
